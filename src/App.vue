@@ -5,7 +5,7 @@ import { TheHeader, TheMain, TheFooter } from '@/components'
   <div class="min-h-screen flex flex-col">
     <the-header>
       <template #start>
-        <router-link to="/" class="text-xl"> Base-App </router-link>
+        <router-link to="/" class="text-xl font-bold"> Base-App </router-link>
       </template>
     </the-header>
     <the-main />
